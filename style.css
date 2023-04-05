@@ -514,7 +514,7 @@ textarea {
     
   .name {
     font-size: 32px;
-    margin-top: 280px;
+    margin-top: 220px;
   }
 
   .desc {
@@ -584,7 +584,7 @@ textarea {
 }
 
 @media (min-width: 1024px){
-
+  
   .wrapper {
     width: 100%;
     margin-top: 10px;
