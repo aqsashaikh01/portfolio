@@ -89,6 +89,19 @@ function animateTitle(title) {
   }
 }
 
+var myImage = document.getElementById("myImage");
+var originalSrc = myImage.src;
+var hoverSrc = "assets/draw.png";
+
+myImage.addEventListener("mouseover", function() {
+  myImage.src = hoverSrc;
+});
+
+myImage.addEventListener("mouseout", function() {
+  myImage.src = originalSrc;
+});
+
+
 
 
 
