@@ -224,7 +224,7 @@ body {
 }
 
 .image-wrapper {
-  width: 70%;
+  width: 85%;
   height: 380px;
   margin-left: auto;
   margin-right: auto; 
@@ -233,8 +233,8 @@ body {
   /*border: 6px solid #233B6E;*/
 }
 
-.illustration {
-  display: none;
+.my-image {
+  transform: translate3d(0, 0, 0);
 }
   
 .image-wrapper img {
@@ -243,16 +243,8 @@ body {
   object-fit: cover;
 }
 
-.image-wrapper:hover .profilepic {
-  display: none;
-}
-  
-.image-wrapper:hover .illustration {
-  display: block;
-}
-  
 .text-wrapper {
-  margin-top: 15px;
+  margin-top: 5px;
   margin-left: auto;
   margin-right: auto;
   width: 85%; 
@@ -439,6 +431,14 @@ textarea {
   padding-bottom:25px;
 }
 
+.footer-text {
+  text-align: center; 
+  color: rgb(243, 241, 241); 
+  font-weight: 100; 
+  font-size: 12.5px;
+}
+
+
 /* Scroll Down Icon */
 
 .wrapper {
@@ -514,7 +514,7 @@ textarea {
     
   .name {
     font-size: 32px;
-    margin-top: 220px;
+    margin-top: 250px;
   }
 
   .desc {
@@ -581,6 +581,14 @@ textarea {
   .social-menu ul {
     margin-left: 270px;
   }
+
+  .footer-text {
+    text-align: center; 
+    color: rgb(243, 241, 241); 
+    font-weight: 100; 
+    font-size: 15px;
+  }
+  
 }
 
 @media (min-width: 1024px){
@@ -717,6 +725,13 @@ textarea {
     
   .nav_buttons {
     display: none;
+  }
+
+  .footer-text {
+    text-align: center; 
+    color: rgb(243, 241, 241); 
+    font-weight: 100; 
+    font-size: 15px;
   }
 }
 
