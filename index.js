@@ -6,7 +6,7 @@ window.addEventListener("load", () => {
   loader.addEventListener("transitionend", () => {
     document.body.removeChild(loader);
   });
-}); 
+});
 
 function sendMail() {
   const nameInput = document.getElementById('name');
