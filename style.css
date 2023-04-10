@@ -415,10 +415,10 @@ textarea {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-  margin-left: -10px;
 	width: 100%;
   height: auto;
   padding-bottom: 10px;
+  padding-top: 20px;
 }
 
 .scroll-icon {
